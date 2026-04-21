@@ -2,7 +2,7 @@ from flask import Flask
 from app import get_all_devices
 
 app = Flask(__name__)
-#put you network range 
+#put your network range exemple: NETWORK_RANGE = "192.168.1.0/24"
 NETWORK_RANGE = ""
 
 @app.route("/")
