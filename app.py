@@ -18,7 +18,7 @@ def get_all_devices(network_range):
             device["status"] = "known"
     
     return devices
-
+"""
 if __name__ == "__main__":
     #put your network range exemple: network_range = "192.168.1.0/24"
     network_range = ""
@@ -27,4 +27,4 @@ if __name__ == "__main__":
     print(f"\n[+] Found {len(devices)} devices\n")
     for device in devices:
         flag = "WARNING" if device["status"] == "suspicious" else "OK"
-        print(f"[{flag}] IP: {device['ip']}  |  MAC: {device['mac']}  |  {device['manufacturer']}")
+        print(f"[{flag}] IP: {device['ip']}  |  MAC: {device['mac']}  |  {device['manufacturer']}")"""
