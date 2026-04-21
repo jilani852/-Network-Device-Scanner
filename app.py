@@ -20,7 +20,8 @@ def get_all_devices(network_range):
     return devices
 
 if __name__ == "__main__":
-    network_range = "192.168.1.0/24"
+    #put your network range exemple: network_range = "192.168.1.0/24"
+    network_range = ""
     devices = get_all_devices(network_range)
     
     print(f"\n[+] Found {len(devices)} devices\n")
