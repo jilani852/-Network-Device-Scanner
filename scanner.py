@@ -23,11 +23,12 @@ def scan (network_range):
         })
     
     return devices
-
+"""
 if __name__ == "__main__":
-    network_range = "192.168.1.0/24"
+    #put your network range exemple: network_range = "192.168.1.0/24"
+    network_range = ""
     devices = scan(network_range)
     
     print(f"[+] Found {len(devices)} devices\n")
     for device in devices:
-        print(f"IP: {device['ip']}  |  MAC: {device['mac']}")
+        print(f"IP: {device['ip']}  |  MAC: {device['mac']}")"""
